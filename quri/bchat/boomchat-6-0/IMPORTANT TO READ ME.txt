@@ -1,0 +1,35 @@
+
+####################################################################################
+
+New installation ##########################
+
+Welcome and thank you to have choose Boomchat. If never haved Boomchat 
+installed on your server you need to use the New installation folder
+in order to complete a full install of your Boomchat. You can view
+installation instruction in getting_started.html located in the documentation
+folder included in New installation folder
+
+** important please follow step completely ***
+
+Update only ###############################
+
+If you already haved Boomchat installed on your server you must use the 
+Update only  please note that update will only work for Boomchat 5.1.1
+
+
+
+please refer to the update instruction included in your update folder
+for more information about how to proceed for update
+
+enjoy !!! 
+
+####################################################################################
+
+In the folder " htaccess & database "  there are 2 files 
+
+1- htaccess 
+2- Boomchat.sql
+
+you can use htaccess file if you do not have 1 already in your boomchat directory
+
+**** sql file is only needed with manual installation process ****

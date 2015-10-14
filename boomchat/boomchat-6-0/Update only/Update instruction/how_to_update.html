@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>Boom search installation guide</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<div id="content">
+		<div class="section bottom_separator">
+			<img class="logo" src="images/default.png"/>
+			<h1>Boom search installation guide</h1>
+			<p>
+			Welcome to Boomchat 6.0 update in this document i will show you all steps to update Boomchat 5.1.1 to 6.0 please follow these steps carefully. These step must be done in order to complete the update with success.
+			please also before attempting any update you should <span class="note">do a complete backup</span> of your current boomchat to prevent any data loss. While updating your chat also i recommend to set your chat to <span class="note">maintenance</span> mode.
+			</p>
+		</div>
+		<div class="section bottom_separator top_separator">
+			<h2>Step 1 - Replace / upload updater folder</h2>
+			<p>
+			Inside the step 1 folder you will see a folder named  <span class="note">updater</span> please upload / replace that folder in your current Boomchat root this step is really important it will help us to update your database.
+			<br/>
+			Once the upload / replace done go in your chat with your superadmin account and type <span class="note">/update</span> wait few second and you should receive a update success confirmation message.
+			</p>
+		</div>
+		<div class="section bottom_separator top_separator">
+			<h2>Step 2 - Replacing files</h2><br />
+			<p>
+			After the update of the database is complete now we will need to replace all files included in <span class="note">step 2</span> folder to your current Boomchat installation.
+			once these files are replaced please.After all file replacement it is time to refresh your browser while you are in your chat please do <span class="note">Ctrl + f5</span> 
+			this will actualise your files and load new javascript files.
+			</p><br/>
+		</div>
+		<div class="section top_separator">
+			<h2>Step 3 - Updating emoticon</h2>
+			<p>
+			In the <span class="note">step 3</span> you have new Boomchat emoticons to update old Boomchat emoticon for new ones simply remove the emoticon folder from your actual Boomchat and replace it with the Emoticon folder included in step 4 folder
+			<span class="note">Please take note that Boomchat 6.0 support now both</span><span style="color:#fff;"> png </span><span class="note">and</span><span style="color:#fff;"> gif </span><span class="note">
+			format for emoticon and you cannot have 2 files with same name </span><span style="color:#fff;">ex: happy.gif and happy.png</span><span class="note"> this will cause a mistake in the display of emoticon on chat.</span>.
+			</p>
+		</div>
+		<div class="section top_separator">
+			<h2>Step 4 - Updating your themes ( optional )</h2>
+			<p>
+			If you have created your own theme you will need to add the file <span class="note">icon.css</span> located in the <span class="note">step 4</span> folder to all your custom themes that will allow you to edit the colors of new icons set.
+			</p>
+		</div>
+		<div class="section top_separator">
+			<h2>Finally ( optional )</h2>
+			<p>
+			If you have buy and installed <span class="note">Boom vip</span> or even if you have installed <span class="note">Boom quiz</span> addons you will need to put back their command code to <span class="note">chat_process.php</span>
+			you remember in first step i tolded you that we will need the backup then here is where we need it. Open your backup <span class="note">chat_process.php</span> then if you remember when you installed these addons you had to include some 
+			code in it then we will do the same process now by putting back these code to your new chat_process.php file. Copy the content that you have inside the zone that you see in the image bellow to the same zone in your new chat_process.php file
+			</p>
+			<br/>
+			<img src="images/install_step2.jpg"/>
+			<br/>
+			<p>Congratulation you have updated your chat with success enjoy</p>
+		</div>
+		<div class="section top_separator">
+			<h2>Problem after updating ?</h2>
+			<p>if you still have problem with this update do not hesitate to contact me via my live demo or my Code Canyon profile i will be glad to help you with it
+			</p>
+			<h2>Boomchat</h2>
+		</div>
+	</div>
+</body>
+</html>

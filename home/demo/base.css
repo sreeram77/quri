@@ -1,0 +1,187 @@
+
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Globals
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+
+
+body {
+    background-color: #32c896;
+    color: #505050;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    overflow-x: hidden;
+}
+
+
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Template
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#main {
+    background-color: #fff;
+    padding: 0;
+}
+
+
+.padding-bottom50 {
+    padding-bottom: 50px;
+}
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Info Bar
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+#info-bar {
+    background-color: #289f77;
+    padding:20px 0;
+}
+.top-bar-area {
+    background-color: #289f77;
+}
+
+#info-bar a {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+}
+
+#info-bar a.btn-green:hover {
+    background-color: #238b68;
+}
+
+span.demo-logo,
+span.back-to-pavilion {
+    display: block;
+    width: 50%;
+}
+
+span.demo-logo {
+    float: left;
+    text-align: left;
+}
+
+span.back-to-pavilion {
+    float: right;
+    text-align: right;
+}
+
+.btn-green {
+    background: #32c896;
+    padding: 10px 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Header
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+header {
+    padding: 30px 0;
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#title h2 {
+    color: #C5FAE9;
+    font-size: 20px;
+}
+
+.screenshot-area-heading h2 {
+    text-align: center;
+    padding: 40px 0;
+}
+.effects .img img {
+    margin-bottom: 10px !important;
+}
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Footer
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+
+.footer-heading p {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0 10px;
+    color: #fff;
+}
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Extras
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Media Queries
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+@media all and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    #info-bar a {
+        display: block;
+    }
+
+    span.demo-logo,
+    span.back-to-pavilion {
+        width: 100%;
+    }
+
+    span.demo-logo,
+    span.back-to-pavilion {
+        float: none;
+        text-align: center;
+    }
+
+    span.demo-logo {
+        margin-bottom: 10px;
+    }
+
+    #title h1 {
+        font-size: 20px;
+    }
+
+    #title h2 {
+        font-size: 16px;
+    }
+}
